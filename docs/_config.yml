@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "pyNCbat"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "A Python Package" # site tagline that appears below site title in masthead
 name                     : &name "pyNCbat"
 description              : &description "A website for the python library pyNCbat"
 url                      : https://alexmarsh.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
