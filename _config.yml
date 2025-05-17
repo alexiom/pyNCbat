@@ -340,3 +340,7 @@ defaults:
       #  og_image: /assets/images/default_headshot.png
       #  teaser: /assets/images/default_headshot.png
       #  overlay_image: /assets/images/default_header.png
+      header:
+        og_image: /assets/images/default_headshot.png
+        teaser: /assets/images/default_headshot.png
+        overlay_image: /assets/images/default_header.png
