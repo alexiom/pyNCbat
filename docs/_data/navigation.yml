@@ -17,17 +17,27 @@ main:
 # ============================================================================ #
 
 # --- Teaching Page
-sidebar-teaching:
-  - title: "Instructor"
-    url: "/teaching/#instructor"
+sidebar-documentation:
+  - title: "Getting Started"
+    url: "/documentation/#getting-started"
     children:
-      - title: "ECON 370: Econ & Data Science"
-        url: "/teaching/#econ-370-economic-applications-of-data-science"
-  - title: "Teaching Assistant"
-    url: "/teaching/#teaching-assistant"
+      - title: "What is pyNCbat?"
+        url: "/documentation/#what-is-pyNCbat"
+      - title: "Installation"
+        url: "/install/"
+  - title: "Usage"
+    url: "/documentation/#usage"
     children:
-      - title: "ECON 101: Intro to Economics"
-        url: "/teaching/#econ-101-introduction-to-economics"
-      - title: "ECON 470: Econometrics"
-        url: "/teaching/#econ-470-econometrics"
+      - title: "Configure Technologies"
+        url: "/documentation/#configure-technologies"
+  - title: "Customization"
+    url: "/documentation/#customize"
+    children:
+      - title: "Adding Technologies"
+        url: "/documentation/#adding-technologies"
+  - title: "Extras"
+    url: "/documentation/#extras"
+    children:
+      - title: "Glossary"
+        url: "/documentation/#glossary"
       
