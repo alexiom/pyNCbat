@@ -1,0 +1,33 @@
+# ============================================================================ #
+#                    MAIN NAVIGATION AT TOP OF WEBSITE PAGES                   #
+# ============================================================================ #
+
+main:
+  - title: "Install"
+    url: /install/
+
+  - title: "Documentation"
+    url: /documentation/
+
+  - title: "About"
+    url: /about/
+
+# ============================================================================ #
+#                           SIDE BAR NAVIGATION                                #
+# ============================================================================ #
+
+# --- Teaching Page
+sidebar-teaching:
+  - title: "Instructor"
+    url: "/teaching/#instructor"
+    children:
+      - title: "ECON 370: Econ & Data Science"
+        url: "/teaching/#econ-370-economic-applications-of-data-science"
+  - title: "Teaching Assistant"
+    url: "/teaching/#teaching-assistant"
+    children:
+      - title: "ECON 101: Intro to Economics"
+        url: "/teaching/#econ-101-introduction-to-economics"
+      - title: "ECON 470: Econometrics"
+        url: "/teaching/#econ-470-econometrics"
+      

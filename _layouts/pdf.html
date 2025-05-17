@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {%- seo -%}   
+  <!-- immediate redirect -->
+  <meta http-equiv="refresh" content="0; url={{ page.pdf | relative_url }}" />
+  <link rel="canonical" href="{{ page.pdf | absolute_url }}" />
+
+  <!-- hide the manual‐redirect container -->
+  <style>
+    #redirect-message { display: none; }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // after 5 seconds, show the manual‐redirect link
+      setTimeout(function() {
+        document.getElementById('redirect-message').style.display = 'block';
+      }, 5000);
+    });
+  </script>
+</head>
+<body>
+  <div id="redirect-message">
+    <p>
+      Redirecting…  
+      If you aren’t taken automatically, 
+      <a href="{{ page.pdf }}">click here</a>.
+    </p>
+  </div>
+
+  <!-- fallback for users without JavaScript -->
+  <noscript>
+    <p>
+      Redirecting…  
+      If you aren’t taken automatically, 
+      <a href="{{ page.pdf }}">click here</a>.
+    </p>
+  </noscript>
+</body>
+</html>
