@@ -2,6 +2,9 @@
 layout: single
 permalink: /documentation/
 title: "Documentation"
+sidebar:
+  title: "Documentation"
+  nav: sidebar-documentation
 ---
 
 ## Getting Started
