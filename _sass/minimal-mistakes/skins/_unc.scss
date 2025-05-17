@@ -1,0 +1,37 @@
+/* ========================================================================== */
+/*                                 UNC Skin                                   */                             
+/* ========================================================================== */
+
+/* Colors */
+
+/* set main skin colors */
+$primary-color: #7BAFD4 !default;
+$secondary-color: #13294B !default;
+$border-color: mix(#fff, #393e46, 75%) !default;
+$background-color: #eeeeee !default;
+
+/* set text colors */
+$text-color: #222831 !default;
+$muted-text-color: #393e46 !default;
+
+/* set link colors */
+$link-color: $primary-color !default;
+$link-color-hover: mix($secondary-color, $link-color, 50%) !default;
+$link-color-visited: mix($secondary-color, $link-color, 75%) !default;
+
+/* set masthead/header colors */
+$masthead-background-color: $primary-color !default;
+$masthead-link-color: #fff !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+/* set footer colors */
+$footer-background-color: $primary-color !default;
+
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}

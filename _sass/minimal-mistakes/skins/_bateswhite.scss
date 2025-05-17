@@ -1,0 +1,57 @@
+/* ========================================================================== */
+/*                            Bates White Skin                                */                             
+/* ========================================================================== */
+
+/* Colors */
+/* OLD TEXT COLOR #222831 */
+
+/* set main skin colors */
+$primary-color: #294785 !default;
+$secondary-color: #7BAFD4 !default;
+$background-color: #eeeeee !default;
+$border-color: mix(#fff, #393e46, 75%) !default;
+
+/* set text colors */
+$text-color: #000000 !default;
+$muted-text-color: #393e46 !default;
+
+/* set link colors */
+$link-color: $secondary-color !default;
+$link-color-hover: mix($primary-color, $link-color, 75%) !default;
+$link-color-visited: $link-color !default;
+
+/* set masthead/header colors */
+$masthead-background-color: $primary-color !default;
+$masthead-link-color: #fff !default;
+$masthead-link-color-hover: $link-color !default;
+$navicon-link-color-hover: mix($link-color, $text-color, 80%) !default;
+
+/* set footer colors */
+$footer-background-color: $primary-color !default;
+
+/* misc colors */
+$marker-color: $secondary-color !default;
+
+
+
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+
+
+
+details {
+  // when open, draw a colored vertical bar
+  &[open] {
+    summary + * {
+      border-left: 0.25rem solid $secondary-color;  /* ← your desired color */
+      padding-left: 0.5rem;
+      margin-left: 1rem;
+    }
+  }
+}
