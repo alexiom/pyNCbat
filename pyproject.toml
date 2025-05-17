@@ -1,0 +1,34 @@
+[project]
+name = "pyNCbat"
+version = "0.1.0"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+
+description = "A package for solving model used for NC battery project"
+authors = [{name = "Alex Marsh, Drew Van Kuiken, Hannah Rubenstein, and Andy Yates"}]
+maintainers = [
+    {name = "Alex Marsh", email="alexander.marsh22@gmail.com"},
+]
+requires-python = ">=3.9"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+
+[project.scripts]
+f2py = 'numpy.f2py.f2py2e:main'
+numpy-config = 'numpy._configtool:main'
+
+[project.entry-points.pkg_config]
+numpy = 'numpy._core.lib.pkgconfig'
+
+[project.entry-points.array_api]
+numpy = 'numpy'
+
+[project.entry-points.pyinstaller40]
+hook-dirs = 'numpy:_pyinstaller_hooks_dir'
+
+[project.urls]
+homepage = "https://alexmarsh.io/research/NC-Battery/"
