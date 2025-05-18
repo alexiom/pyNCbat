@@ -336,7 +336,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-      sidebar: false
       #header:
       #  og_image: /assets/images/default_headshot.png
       #  teaser: /assets/images/default_headshot.png
