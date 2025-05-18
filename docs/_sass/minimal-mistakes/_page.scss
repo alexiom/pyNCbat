@@ -34,6 +34,13 @@ body {
 }
 
 .page {
+
+  &--nosidebar {
+    $right-sidebar-width-narrow: 0px;
+    $right-sidebar-width: 0px;
+    $right-sidebar-width-wide: 0px;
+  }
+
   @include breakpoint($large) {
     float: inline-end;
     width: calc(100% - #{$right-sidebar-width-narrow});
@@ -78,6 +85,13 @@ body {
 }
 
 .page__lead {
+
+  &--nosidebar {
+    $right-sidebar-width-narrow: 0px;
+    $right-sidebar-width: 0px;
+    $right-sidebar-width-wide: 0px;
+  }
+
   font-family: $global-font-family;
   font-size: $type-size-4;
   width: calc(100% - #{$right-sidebar-width-narrow});
@@ -700,6 +714,7 @@ summary::-webkit-details-marker {
    ========================================================================== */
 
 .page__related {
+  
   @include clearfix();
   float: inline-start;
   margin-top: 2em;
