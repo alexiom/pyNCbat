@@ -2,6 +2,7 @@
 layout: single
 permalink: /install/
 title: "Installation"
+drop_sidebar: true
 ---
 
 <a class="btn btn--primary-secondary" href="https://github.com/alexiom/pyNCbat/"><i class="fa-brands fa-github"></i> Github Repository</a>
