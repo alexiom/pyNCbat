@@ -11,9 +11,11 @@ title: "Installation"
 To install <code>pyNCbat</code> for python, follow the steps below.
 
 <ol>
-    <li> Make sure you are using a recent version of <code>pip</code>. 
+    <li> 
+        Make sure you are using a recent version of <code>pip</code>. 
         <ul>
-            <li>To upgrade, run the following command. 
+            <li>
+                To upgrade, run the following command. 
                 <div><code>pip install --upgrade pip</code></div>
             </li>
         </ul>
@@ -37,7 +39,6 @@ To install <code>pyNCbat</code> from source, follow the steps below.
         Then run the following command from inside the cloned folder.
         <div><code>pip install .</code></div>
     </li>
-
 </ol>
 
 
