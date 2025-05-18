@@ -27,7 +27,7 @@ This library requires at least ```python 3.7``` and uses packages from this vers
 
 ### Installation
 
-To install ```pyNCbat``` for python, make sure you are using a recent version of ```pip``` (```pip install --upgrade pip```) and then use ```pip install osqp```.
+To install ```pyNCbat``` for python, make sure you are using a recent version of ```pip``` (```pip install --upgrade pip```) and then use ```pip install pyNCbat```.
 
 To install ```pyNCbat``` from source, clone [the repository](https://github.com/alexiom/pyNCbat) (```git clone https://github.com/alexiom/pyNCbat```) and run ```pip install .``` from inside the cloned folder.
 
