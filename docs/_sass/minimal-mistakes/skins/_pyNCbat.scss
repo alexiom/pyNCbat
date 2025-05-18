@@ -21,9 +21,9 @@ $link-color-visited: mix($secondary-color, $link-color, 75%) !default;
 
 /* set masthead/header colors */
 $masthead-background-color: $primary-color !default;
-$masthead-link-color: #fff !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $secondary-color !default;
+$navicon-link-color-hover: mix(#fff, $secondary-color, 80%) !default;
 
 
 $right-sidebar-width-narrow: 150px !default;
