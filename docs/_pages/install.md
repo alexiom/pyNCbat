@@ -11,15 +11,13 @@ title: "Installation"
 To install ```pyNCbat``` for python, follow the steps below
 
 <ol>
-    <li> Make sure you are using a recent version of ```pip```. To upgrade, run the following command. 
-        ```pip install --upgrade pip```
+    <li> Make sure you are using a recent version of <code>pip</code>. To upgrade, run the following command. 
+        <code>pip install --upgrade pip</code>
     </li>
     <li> Then run the following command.
-        ```pip install pyNCbat```.
+        <code>pip install pyNCbat</code>
     </li>
 </ol>
-
-
 
 
 ## From Source
