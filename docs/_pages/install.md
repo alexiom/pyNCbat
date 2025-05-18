@@ -4,7 +4,7 @@ permalink: /install/
 title: "Installation"
 ---
 
-<a class="btn btn--primary-secondary btn--large" href="https://github.com/alexiom/pyNCbat/"><i class="fa-brands fa-github" style="color:gray;font-size=$type-size-3"></i> Github Repository</a>
+<a class="btn btn--primary-secondary" href="https://github.com/alexiom/pyNCbat/"><i class="fa-brands fa-github"></i> Github Repository</a>
 
 To install ```pyNCbat``` for python, make sure you are using a recent version of ```pip```. 
 
